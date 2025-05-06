@@ -133,6 +133,13 @@ Conecte-se ao banco de dados:
 ```bash
 psql -U USUÁRIO -d meu_banco -h localhost -W
 ```
+
+Onde:
+- ``psql`` - comando de terminal do PostgreSQL;
+- ``-U`` - Usuário que fará chamada à Base de Dados;
+- ``-d`` - Nome da Base de dados (database)
+
+   
 E liste tabelas com:
 ```sql
 \dt
